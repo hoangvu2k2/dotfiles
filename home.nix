@@ -37,6 +37,7 @@ in
       m = "git switch main";
       cc = "claude --dangerously-skip-permissions";
       co = "codex --full-auto";
+      rebuild = "sudo /run/current-system/sw/bin/darwin-rebuild switch --flake ~/.dotfiles#mac";
     };
   };
 
